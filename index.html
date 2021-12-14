@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+    <div class="container">
+      <h1 class="text-info">Click the button to change the text</h1>
+      <button type="button" class="btn btn-primary" onclick="textChange()">Click Me</button>
+      <p id="p">Lorem ipsum dolor sit amet.</p>
+      <hr>
+      <h1 class="text-info">Click the button to change the text</h1>
+      <button type="button" class="btn btn-danger" onclick="textChangeClass()">Click Me</button>
+      <p class="change">Lorem ipsum dolor sit amet.</p>
+      <p class="change">Lorem ipsum dolor sit amet.</p>
+      <p class="change">Lorem ipsum dolor sit amet.</p>
+      <hr>
+      <h1 class="text-info">Click the button to change the text</h1>
+      <button type="button" class="btn btn-danger" onclick="textChangeDate()">Click Me</button>
+      <p id="date">Lorem ipsum dolor sit amet.</p>
+      <hr>
+      <h1 class="text-info">Click the button to change the text</h1>
+      <button type="button" class="btn btn-danger" onclick="textChangeRepeat()">Click Me</button>
+      <p id="repeat">Lorem ipsum dolor sit amet.</p>
+      <hr>
+      <h1 class="text-info">Click the button to change the text</h1>
+      <button type="button" class="btn btn-danger" onclick="styleChange()">Click Me</button>
+      <p id="text_style">Lorem ipsum dolor sit amet.</p>
+      <p id="text_style1">Lorem ipsum dolor sit amet.</p>
+      <p id="text_style2">Lorem ipsum dolor sit amet.</p>
+      <hr>
+      <h1 class="text-info">Click the button to change the Image</h1>
+      <button type="button" class="btn btn-primary" onclick="imgOne()">Image One</button>
+      <button type="button" class="btn btn-primary" onclick="imgTwo()">Image Two</button>
+      <button type="button" class="btn btn-primary" ondblclick="imgOne()">Image Two</button>
+      <button type="button" class="btn btn-primary" onmouseover="imgTwo()">Image Two</button>
+      <button type="button" class="btn btn-primary" onmouseout="imgOne()">Image Two</button>
+      <br>
+      <br>
+      <img id="img" src="img/work2.jpg" alt="">
+    </div>
+
+    <h1>jQuery</h1>
+    <div class="container">
+      <h1>Click the button for show / hide the image</h1>
+      <button type="button" class="btn btn-primary hide">Hide</button>
+      <button type="button" class="btn btn-danger" id="show">Show</button>
+      <button type="button" class="btn btn-info" id="toggle">Toggle</button>
+      <hr>
+      <img src="img/work1.jpg" alt="">
+    </div>
+    
+    <!-- JS Link -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
