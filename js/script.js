@@ -7,6 +7,10 @@ function textChangeClass(){
 function textChangeDate(){
 	document.getElementById('date').innerHTML=Date();
 }
+function textChangeRepeat(){
+	var data= "Repeat the word "
+	document.getElementById('repeat').innerHTML=data.repeat(2);
+}
 function styleChange(){
 	document.getElementById('text_style').style.color = "red";
 	document.getElementById('text_style1').style.fontSize = "100px";
