@@ -28,16 +28,16 @@ $(document).ready(function(){
 
 	//hide
 	$('.hide').click(function(){
-		$('img').hide("fast");
+		$('#img3').hide("fast");
 	});
 
 	//show
 	$('#show').click(function(){
-		$('img').show(1000);
+		$('#img3').show(1000);
 	});
 
 	//Toggle
 	$('#toggle').click(function(){
-		$('img').toggle("slow");
+		$('#img3').toggle("slow");
 	});
 });
